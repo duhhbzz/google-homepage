@@ -2,19 +2,32 @@
 
 
 /* main elements */
-
+*   {
+    text-decoration: none;
+}
 
 /* id elements */
 
 #duhhbzz-icon   {
-    height: 5%;
-    width: 5%;
+    height: 45px;
+    width: 45px;
 }
 
 #apps-icon  {
-    height: 3%;
-    width: 3%;
+    height: 20px;
+    width: 20px;
 }
 
 /* class elements */
 
+.nav-link   {
+    color: #000;
+}
+
+.nav-item   {
+    list-style: none;
+}
+
+.footer-item    {
+    list-style: none;
+}
