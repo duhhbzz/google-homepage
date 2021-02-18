@@ -31,6 +31,7 @@ a:hover {
 
 .nav    {
     width: 100%;
+    margin: 0 auto;
 }
 
 .nav-link-left  {
@@ -48,8 +49,8 @@ a:hover {
 }
 
 .icon-app   {
-    height: 30px;
-    width: 30px;
+    height: 20px;
+    width: 20px;
     position: relative;
 }
 
@@ -64,12 +65,12 @@ a:hover {
 
 .main-container {
     text-align: center;
-    margin-top: 8%;
+    margin-top: 2%;
     flex: 1;
 }
 
 .main-logo  {
-    padding: 120px;
+    padding: 50px;
 }
 
 .main-search    {
@@ -78,7 +79,9 @@ a:hover {
 
 .main-form  {
     max-width: 584px;
-    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    margin: auto;
 }
 
 .form-container {
@@ -97,8 +100,43 @@ a:hover {
     border-color: rgba(223, 225, 229, 0);
 }
 
+.search-input   {
+    height: 100%;
+    flex: 1;
+}
 
-/* --- icons nested in search --- */
+.search-input input {
+    border: none;
+    width: 100%;
+    height: 40px;
+    margin-top: -1px;
+    padding-bottom: 3px;
+}
+
+.search-input input:focus   {
+    outline: none;
+}
+
+.search-voice   {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -5px;
+    margin-right: 5px;
+}
+
+/* --- icons sizes nested in search --- */
+
+.search-icon    {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -5px;
+    margin-right: 5px;
+}
+
 .search-icon svg    {
     height: 30px;
     width: 30px;
@@ -108,3 +146,50 @@ a:hover {
     height: 30px;
     width: 30px;
 }
+
+/* --- submit & feeling lucky --- */
+
+.main-submit    {
+    margin-top: 35px;
+}
+
+.main-submit button {
+    background-color: #fff;
+    border: 1px solid #fff;
+    padding: 0 16px;
+    line-height: 30px;
+    height: 40px;
+    min-width: 55px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.main-submit button:hover   {
+    box-shadow: 0px 1px 6px 0px rgba(32, 33, 36, 0.28);
+    border-color: rgba(223, 225, 229, 0);
+    border-radius: 5px;
+}
+
+/* ----- footer ----- */
+
+.footer     {
+    background-color: #f2f2f2;
+    width: 100%;
+}
+
+.footer-link-left  {
+    float: inline-start;
+    padding: 8px;
+    color: #000;
+    font-weight: 300;
+    padding-left: 1%;
+}
+
+.footer-link-right {
+    float: inline-end;
+    padding: 8px;
+    color: #000;
+    font-weight: 300;
+    padding-right: 1%;
+}
+
