@@ -1,6 +1,6 @@
 ## Google Homepage Clone
 
-[Live Demo] [https://duhhbzz.github.io/google-homepage]
+[Live Demo](https://duhhbzz.github.io/google-homepage)
 
-Powered by [http://www.theodinproject.com] | Check them out for web development lessons
+Inspired and assigned by [The Odin Prject](http://www.theodinproject.com) | Check them out for web development lessons
 and a strong community.
