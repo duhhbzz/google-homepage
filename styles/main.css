@@ -1,33 +1,110 @@
-/* imports */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
 
+body    {
+    font-family: 'Roboto', sans-serif;
+}
 
-/* main elements */
-*   {
+.page-body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.page-container {
+    min-width: none;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+a:link, a:visited   {
     text-decoration: none;
+    font-size: 18px;
 }
 
-/* id elements */
-
-#duhhbzz-icon   {
-    height: 45px;
-    width: 45px;
+a:hover {
+    text-decoration: underline;
 }
 
-#apps-icon  {
-    height: 20px;
-    width: 20px;
+/*  --------nav bar------------------ */
+
+.nav    {
+    width: 100%;
 }
 
-/* class elements */
-
-.nav-link   {
+.nav-link-left  {
+    float: inline-start;
+    padding: 8px;
     color: #000;
+    font-weight: 300;
 }
 
-.nav-item   {
-    list-style: none;
+.nav-link-right {
+    float: inline-end;
+    padding: 8px;
+    color: #000;
+    font-weight: 300;
 }
 
-.footer-item    {
-    list-style: none;
+.icon-app   {
+    height: 30px;
+    width: 30px;
+    position: relative;
+}
+
+.icon-profile   {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: relative;
+}
+
+/*  -------- main elements -------------- */
+
+.main-container {
+    text-align: center;
+    margin-top: 8%;
+    flex: 1;
+}
+
+.main-logo  {
+    padding: 120px;
+}
+
+.main-search    {
+    position: relative;
+}
+
+.main-form  {
+    max-width: 584px;
+    margin: 0 auto;
+}
+
+.form-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    border: 1px solid #dfe1e5;
+    border-radius: 30px;
+    padding: 5px 8px 0px 16px;
+}
+
+.form-container:hover   {
+    box-shadow: 0px 1px 6px 0px rgba(32, 33, 36, 0.28);
+    border-color: rgba(223, 225, 229, 0);
+}
+
+
+/* --- icons nested in search --- */
+.search-icon svg    {
+    height: 30px;
+    width: 30px;
+}
+
+.search-voice svg   {
+    height: 30px;
+    width: 30px;
 }
