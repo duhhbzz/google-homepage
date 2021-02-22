@@ -35,14 +35,14 @@ a:hover {
 }
 
 .nav-link-left  {
-    float: inline-start;
+    float: left;
     padding: 8px;
     color: #000;
     font-weight: 300;
 }
 
 .nav-link-right {
-    float: inline-end;
+    float: right;
     padding: 8px;
     color: #000;
     font-weight: 300;
@@ -178,7 +178,7 @@ a:hover {
 }
 
 .footer-link-left  {
-    float: inline-start;
+    float: left;
     padding: 8px;
     color: #000;
     font-weight: 300;
@@ -186,7 +186,7 @@ a:hover {
 }
 
 .footer-link-right {
-    float: inline-end;
+    float: right;
     padding: 8px;
     color: #000;
     font-weight: 300;
